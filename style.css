@@ -1,0 +1,108 @@
+/* color palette from https://palettes.shecodes.io/ */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F3EFEF; /* Light gray background */
+}
+.name {
+    align-self: center;
+    margin-left: 10vw;
+}
+.head-container {
+    padding-left: 10vw;
+    display: flex;
+    justify-content: flex-start;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #00ADB5; /* Turquoise color */
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #393E46; /* Dark gray background */
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #4E555F; /* Slightly lighter gray on hover */
+}
+
+#welcome {
+    background-color: #4E555F; /* Slightly lighter gray background */
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#featured {
+    background-color: #6B4226; /* Brown color for featured section */
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+section {
+    margin: 40px 0;
+}
+
+footer {
+    background-color: #00ADB5; /* Turquoise color for footer */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Profile photo styling */
+.profile-photo {
+    width: 150px; /* Adjust the size as needed */
+    border-radius: 50%; /* Make it round */
+    margin-bottom: 20px; /* Add some space below the photo */
+}
+
+/* Work item styling */
+.work-item {
+    margin-bottom: 40px;
+}
+
+.work-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Photo gallery styling */
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.photo-gallery img {
+    width: 100%;
+    border-radius: 8px;
+}
+.cv-header {
+    display: flex;
+}
